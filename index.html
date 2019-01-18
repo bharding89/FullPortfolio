@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Casa de Funk</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:550px;color: #fff; background-color: #a30303;}
+  #section2 {padding-top:30px;height:500px;color: #fff; background-color: #3e4147;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #a30303;}
+
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Casa De Funk</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav" id="menu">
+          <li><a href="#section1">About Me</a></li>
+          <li><a href="#section2">Work Examples</a></li>
+          <li><a href="#section3">Contact</a></li>
+          <li id="resButton"><button class="btn btn-secondary btn-sm" onclick="window.open('https://docs.google.com/document/d/1Bn_N7mzkFuaBWqIEJVdg45xx7lBoAXuuWo1hpmDt9Ew/edit?usp=sharing')" id="resumeOpen">
+                Launch My Resume
+              </button>
+                   
+                   </ul>
+                   
+          </li>
+        </ul>
+      </div>
+          </div>
+  </div>
+</nav>    
+
+<span class="container firstlayer">
+  
+<div id="section1" class="container-fluid">
+  <h1>About Me</h1>
+  <div class="col-md-1"></div>
+  <div class="col-md-4">
+    <img class="imgMe" src="./images/coversm.jpg">
+    <img class="imgMe" src="./images/cycling.jpg"></div>
+  <div class="col-md-6">
+  <p>Having worked in a variety of technology support roles in the higher education field for well over a decade I have the innate 
+    ability to pick up things quickly and move from one project to another with ease. As I transition my skills from support to building,
+     I have poured my energy into learning new languages and frameworks to build exciting and robust applications.</p>
+  <p>
+    My career has taken me to the University of Kentucky, University of South Carolina, and now living in Charlotte, North Carolina. 
+    Having spent a great deal of time in learning technology support systems and video stream and conferncing systems, I am excited 
+    to transition these skills into web devlopment.
+  </p>
+  <p>
+       Now in Charlotte, I have the opportunity to work at a brewery a hobby I have had for about
+       6 years now. I have been able to learn a great deal in small business operations, a significant change from the University environment 
+       I have previously been used to.
+        </p>
+    <p>
+      Another hobby I have developed since moving to the Carolinas has been cycling, both in the activity and mechanics. What started off an 
+      interest in cycle-commuting developed into participating in the creation of a community bicycle shop. Learning to work on bicycles and 
+      assist members of the community who rely on bicycles as their main source of transportation.
+    </p>
+     </div>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Examples</h1>
+  <div class="examples">
+  <table>
+      <col width="15%">
+        <col width="20%">
+        <col width="15%">
+        <col width="20%">
+        <col width="15%">
+        <col width="20%">
+        
+        <tr>
+            <th><p><h4>Make or Break it App </h4><br>
+                 Web app used to gather goals and track progress with daily user check-ins. Using MySQL databases to store user goals and login,
+                  operating with an Express web server built with Sequelize and Handlebars MVC.  
+              </p></th>
+          <th><a href="https://salty-wave-52591.herokuapp.com/"> <img class="thumbnail" src="./images/Project2.JPG"></a>
+            <button type="button" class="btn btn-outline-primary"><a href="https://github.com/rabunc/Habittracker">Github Project Link</a></button></th>
+          <th><p><h4></p>Park Finder App</h4><br>
+              Collaborated with a team to develop a Javascript web application that pulls a user’s location to determine the nearest list of public parks,
+               as well as using a variety of Google API’s and storing results in a Firebase database for viewing and retrieval. 
+              </p></th>
+            <th><a href="https://s-voss.github.io/nhs-mapper/index2.html"> <img class="thumbnail" src="./images/Project1.JPG"></a>
+            <button type="button" class="btn btn-outline-primary"><a href="https://github.com/S-Voss/nhs-mapper/">Github Project Link</a></button></th>
+            <th><p><h4>Train Time App</h4><br>
+              Collaborated with a team to develop a Javascript web application that pulls a user’s location to determine the nearest list of
+               public parks, as well as using a variety of Google API’s and storing results in a Firebase database for viewing and retrieval. 
+              </p></th>
+            <th> <a href="https://s3.amazonaws.com/casadefunk.com/TrainTimer/TrainScheduler.html">
+            <img class="thumbnail" src="./images/Train.JPG"></a>
+           <button type="button" class="btn btn-outline-primary"><a href="https://github.com/bharding89/TrainTime">Github Project Link</a></button></th>
+        </tr>
+        
+      </table>
+    </div>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Contact Me</h1>
+  <div class="row">
+      
+        <table>
+                <col width="20%">
+                <col width="20%">
+                <col width="60%">
+                <tr>
+                  <th><a href="https://www.linkedin.com/in/brian-harding-a6b9b479/">
+                    <img class="thumbnail" src="./images/linkedin-128.png"></a></th>
+                  <th><a href="http://github.com/bharding89">
+                    <img class="thumbnail" src="./images/github-128.png"></a></th>
+                  <th>
+                        <p>Please feel free to reach out to me using the links to the left on this page,
+                           the contact information located on my resume at the top, or email me at <a href="mailto:brian.harding@gmail.com?Subject=Hello%20again" target="_top">brian.harding@gmail.com</a> </p>
+                        
+                    </th>
+                </tr>
+            
+              </table>
+</div>
+</span>
+
+</body>
+</html>

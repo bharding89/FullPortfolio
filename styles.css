@@ -1,0 +1,73 @@
+.container {
+    background: #000;
+    overflow: none;
+    display: block;
+    z-index: 1;
+   
+    } 
+.firstlayer { 
+    background-color: rgb(2, 0, 0) !important;
+    height: auto !important; 
+    min-height: 100%; 
+    height: 100%;
+    
+    margin:0 auto;
+    border-left: solid 1px rgb(245, 241, 241);  border-right: solid 1px rgb(235, 220, 220);
+    }
+
+.padded  {margin-left:20px; margin-right:20px;}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+.thumbnail {
+    height: 200px;
+    width: 200px;
+}
+
+.modal-content {
+    width: 800px;
+}
+
+.cover {
+    height: 30%;
+    width: 30%;
+}
+
+#contact {
+    background-color: white;
+}
+
+#resumeOpen {
+    background-color: #a30303;
+    border-radius: 30%;
+}
+#menu > li:last-child
+{
+    float:right;
+}
+
+#resButton {
+    padding: 10px;
+    padding-left: 700px;
+    color: white;
+  
+    
+}
+body {
+font-family: 'Cairo', sans-serif;
+background-image: url("./images/wireframe.jpg");
+}
+.imgMe {
+    height: 75%;
+    width: 75%;
+    padding-bottom: 20px;
+    border: 2px;
+}
+h4 {
+    font-weight: bold;
+}
